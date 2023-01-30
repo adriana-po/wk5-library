@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1728px;
+  height: 1117px;
+  background: #ffffff;
+}
+
+html {
+  font-size: 16px;
+}
+
+.topheader {
+  width: 1732px;
+  height: 36px;
+  margin-top: -88px;
+  background: #d9d9d9;
+  display: flex;
+}
+
+.logo img {
+  width: 111px;
+  height: 111px;
+  margin-left: 37px;
+  margin-top: 8px;
+}
+
+.topheader .links {
+  display: flex;
+}
+
+.topheader .links nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1114px;
+  gap: 19px;
+}
+
+.topheader .links nav ul li {
+  width: 113px;
+  height: 30px;
+  top: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem; /*25px*/
+  line-height: 30px;
+  text-align: left;
+}
+
+.topheader .links nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+}
+
+.topheader .links nav ul li a:hover {
+  color: white;
+}
+
+.topheader .links a img {
+  top: 25%;
+  margin-left: 8.33%;
+}
+
+.catalog {
+  display: flex;
+  margin-left: 930px;
+}
+
+.catalog h1 {
+  width: 150px;
+  height: 24px;
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem; /*20px*/
+  line-height: 24px;
+  color: #000000;
+}
+
+.catalog form {
+  margin-left: 13px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.catalog form input {
+  width: 143px;
+  height: 25px;
+  margin-right: 24px;
+  background: #d9d9d9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+}
+
+.catalog form select {
+  width: 95px;
+  height: 25px;
+  margin-right: 20px;
+  background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+}
+
+main .content {
+  max-width: 1728px;
+  height: 959px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .content .leftside {
+  flex: 1 1 16%;
+}
+
+main .content .middle {
+  flex: 1 1 36%;
+  /*border: 1px solid red;*/
+}
+
+main .content .rightside {
+  flex: 1 1 48%;
+  /*border: 1px solid red;*/
+}
+
+.content .leftside .navigation nav ul {
+  list-style-type: none;
+  margin-top: 28px;
+  margin-left: 44px;
+}
+
+.content .leftside .navigation nav ul li {
+  width: 209px;
+  height: 32px;
+  margin-bottom: 13px;
+  font-family: "Mate";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.62rem; /*26px*/
+  line-height: 32px;
+}
+
+.content .leftside .navigation nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.content .leftside .navigation nav ul li a:hover {
+  color: white;
+}
+
+.content .middle .book {
+  width: 389px;
+  height: 586px;
+  margin-left: 124px;
+  margin-top: 70px;
+}
+
+.content .middle .rating {
+  display: flex;
+}
+
+.content .middle .rating h1 {
+  width: 60px;
+  height: 27px;
+  margin-left: 222px;
+  margin-top: 11px;
+  font-family: "Tiro Devanagari Hindi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.content .middle .rating img {
+  height: 19px;
+  margin-left: 8px;
+  margin-top: 11px;
+}
+
+.content .middle button {
+  width: 198px;
+  height: 49px;
+  margin-left: 219px;
+  margin-top: 34px;
+  background: #067c44;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.content .rightside .top {
+  display: flex;
+  margin-top:52px;
+}
+
+.content .rightside .top h1 {
+  font-family: "Mandali";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.content .rightside .top .left h1 {
+  max-width: 110px;
+}
+
+.content .rightside .top .right h1 {
+  max-width: 310px;
+  margin-left: 53px;
+}
+
+.content .rightside .summary h1 {
+  height: 35px;
+  margin-top: 31px;
+  font-family: "Tienne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.content .rightside .summary p {
+  width: 666px;
+  height: 215px;
+  margin-top: 26px;
+  font-family: "Merge One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.content .rightside .reviews h1 {
+  width: 114px;
+  height: 35px;
+  margin-top: 30px;
+  font-family: "Tienne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.content .rightside .reviews p {
+  width: 666px;
+  height: 100px;
+  margin-top: 16px;
+  margin-bottom: 27px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #000000;
+}
