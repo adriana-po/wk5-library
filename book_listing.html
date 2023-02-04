@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="book_listing.css" />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+
+    <title>Peadmount Library</title>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img src="images/logo.png" alt="logo" width="111" />
+    </div>
+    <header class="topheader">
+      <div class="topheader_links">
+        <nav>
+          <ul>
+            <li><a href="">Location</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Sign-in</a></li>
+          </ul>
+        </nav>
+        <a href=""><img src="images/search.png" alt="" width="36" /></a>
+      </div>
+    </header>
+    <div class="catalog">
+      <h1>Search Catalog</h1>
+      <form>
+        <input type="text" name="title" placeholder="Title" required />
+        <input type="text" name="ISBN" id="isbn" placeholder="ISBN" required />
+        <select name="format" id="format" required>
+          <option value="" selected>Format</option>
+        </select>
+        <select name="genre" id="genre" required>
+          <option value="" selected>Genre</option>
+        </select>
+      </form>
+    </div>
+
+    <main>
+      <div class="content">
+        <div class="content_leftside">
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a class="selected" href="">Ask us</a></li>
+                <li><a href="">Reading Challenge</a></li>
+                <li><a href="">Catalog</a></li>
+                <li><a href="">Bookcamp</a></li>
+                <li><a href="">E-book</a></li>
+                <li><a href="">STEM</a></li>
+                <li><a href="">Online Resources</a></li>
+                <li><a href="">Volunteer</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="content_rightside">
+          
+            <h3>
+              There are 6 readers in line for this tile, check out these similar
+              titles that are currently available.
+            </h3>
+          
+
+          <div class="book_list">
+            <div class="book1">
+            <img src="./images/rectangle9.png" alt="" width="145" />
+            <p><button>Check Out</button></p>
+            </div>
+
+            <div class="books2">
+            <img src="./images/rectangle5.png" alt="" width="659" />
+            <p>
+              <button>Check Out</button>
+              <button>Check Out</button>
+              <button>Check Out</button>
+              <button>Check Out</button>
+            </p>
+            <img src="./images/rectangle11.png" alt="" width="659" />
+            <p>
+              <button>Check Out</button>
+              <button>Check Out</button>
+              <button>Check Out</button>
+              <button>Check Out</button>
+            </p>
+            </div> 
+            
+        </div>
+        <p>
+          <b><u>1</u></b> 2 3 4 5 6 7
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
