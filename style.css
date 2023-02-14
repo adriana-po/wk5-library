@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1728px;
+  height: 1117px;
+  background: #ffffff;
+}
+
+html{
+  font-size:16px;
+}
+
+.topheader {
+  width: 1732px;
+  height: 36px;
+  margin-top: -88px;
+  /*margin-top: 53px;*/
+  background: #d9d9d9;
+  display: flex;
+}
+
+.logo img {
+  width: 111px;
+  height: 111px;
+  margin-left: 37px;
+  margin-top: 8px;
+}
+
+.topheader .links {
+  display: flex;
+}
+
+.topheader .links nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1114px;
+  gap: 19px;
+}
+
+.topheader .links nav ul li {
+  width: 113px;
+  height: 30px;
+  top: 34px;
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;/*25px*/
+  line-height: 30px;
+  text-align: left;
+}
+
+.topheader .links nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+}
+
+.topheader .links nav ul li a:hover {
+  color: white;
+}
+
+.topheader .links a img {
+  top: 25%;
+  margin-left: 8.33%;
+  /*margin-left: 35px;*/
+}
+
+.catalog {
+  display: flex;
+  margin-left: 930px;
+}
+
+.catalog h1 {
+  width: 150px;
+  height: 24px;
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;/*20px*/
+  line-height: 24px;
+  color: #000000;
+}
+
+.catalog form {
+  margin-left: 13px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.catalog form input {
+  width: 143px;
+  height: 25px;
+  margin-right: 24px;
+  background: #d9d9d9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+}
+
+.catalog form select {
+  width: 95px;
+  height: 25px;
+  margin-right: 20px;
+  background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+}
+
+main .content {
+  max-width: 1728px;
+  height: 976px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .content .leftside {
+  flex: 1 1 19%;
+}
+
+main .content .middle {
+  flex: 1 1 38%;
+}
+
+main .content .rightside {
+  flex: 1 1 43%;
+}
+
+.content .leftside .navigation nav ul {
+  list-style-type: none;
+  margin-top: 28px;
+  margin-left: 44px;
+}
+
+.content .leftside .navigation nav ul li {
+  width: 209px;
+  height: 32px;
+  margin-bottom: 13px;
+  font-family: "Mate";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.62rem;/*26px*/
+  line-height: 32px;
+}
+
+.content .leftside .navigation nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.content .leftside .navigation nav ul li a:hover {
+  color: white;
+}
+
+main .content .middle h1 {
+  width: 466px;
+  height: 122px;
+  margin-top: 98px;
+  margin-left: -1px;
+  font-family: "Mate";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.12rem;/*50px*/
+  line-height: 61px;
+  color: #000000;
+}
+
+main .content .middle p {
+  width: 652px;
+  height: 209px;
+  margin-top: 23px;
+  margin-left: -1px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;/*16*/
+  line-height: 19px;
+  color: #000000;
+}
+
+main .content .middle .student img {
+  width: 628px;
+  height: 418px;
+  margin-top: 52px;
+  margin-left: -29px;
+  border-radius: 66px;
+  position: relative;
+  width: 100%;
+  max-width: 628px;
+}
+
+main .content .middle .student button {
+  position: absolute;
+  width: 516px;
+  height: 95px;
+  left: 373px;
+  top: 887px;
+  background: #742c2c;
+  border-radius: 16px;
+}
+
+main .content .middle .student a {
+  text-decoration: none;
+  width: 469px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.12rem;/*50*/
+  line-height: 61px;
+  color: #ffffff;
+  /*border: 1px solid rgba(12, 48, 64, 0.22);*/
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .content .rightside .students img {
+  width: 629px;
+  height: 419px;
+  margin-top: 55px;
+  margin-left: 7px;
+  border-radius: 57px;
+  margin-bottom: 29px;
+  position: relative;
+  width: 100%;
+  max-width: 629px;
+}
+
+main .content .rightside .students button {
+  position: absolute;
+  width: 516px;
+  height: 95px;
+  left: 1046px;
+  top: 410px;
+  background: #742c2c;
+  border-radius: 16px;
+}
+
+main .content .rightside .students a {
+  text-decoration: none;
+  width: 223px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.12rem;/*50px*/
+  line-height: 61px;
+  color: #ffffff;
+  /*border: 1px solid rgba(12, 48, 64, 0.22);*/
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .content .rightside .children img {
+  width: 629px;
+  height: 419px;
+  margin-left: 7px;
+  border-radius: 52px;
+  position: relative;
+  width: 100%;
+  max-width: 629px;
+}
+
+main .content .rightside .children button {
+  position: absolute;
+  width: 516px;
+  height: 95px;
+  left: 1045px;
+  top: 896px;
+  background: #742c2c;
+  border-radius: 16px;
+}
+
+main .content .rightside .children a {
+  text-decoration: none;
+  width: 389px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.12rem;/*50px*/
+  line-height: 61px;
+  color: #ffffff;
+  /*border: 1px solid rgba(12, 48, 64, 0.22);*/
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
