@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="images/logo.png" type="image/png">
-    
-  <title>Peadmount Library</title>
-</head>
-
-<body>
-  
-  <div class="logo">
-    <img src="images/logo.png" alt="logo">
-  </div>
-
-  <header class="topheader">
-    <div class="links">
-      <nav>
-        <ul>
-          <li><a href="#" target="_blank">Location</a></li>
-          <li><a href="#" target="_blank">Events</a></li>
-          <li><a href="./about-us.html" target="_blank">About Us</a></li>
-          <li><a href="./registration.html" target="_blank">Sign-in</a></li>
-        </ul>
-      </nav>
-      <a href="#" target="_blank"><img src="images/search.png" alt="" width="36"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&family=Inter&family=Mate&display=swap"
+      rel="stylesheet"
+    />
+    <title>Peadmount Library</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" width="110" />
+      </div>
+      <div class="nav_links">
+        <a href="#">Location</a>
+        <a href="#">Events</a>
+        <a href="./about-us.html">About Us</a>
+        <a href="./registration.html">Sign-in</a>
+        <a href="#"><img src="./images/search.png" alt="" width="36" /></a>
+      </div>
+    </header>
+    <div class="sub_header">
+      <form>
+        <h1>Search Catalog</h1>
+        <input type="text" name="title" placeholder="Title" required />
+        <input type="text" name="ISBN" id="isbn" placeholder="ISBN" required />
+        <select name="format" id="format" required>
+          <option value="format" selected>Format</option>
+        </select>
+        <select name="genre" id="genre" required>
+          <option value="" selected>Genre</option>
+        </select>
+      </form>
     </div>
-  </header>
 
-  <div class="catalog">
-    <h1>Search Catalog</h1>
-    <form>
-      <input type="text" name="title" placeholder="Title" required>
-      <input type="text" name="ISBN"
-        id="isbn" placeholder="ISBN" required>
-      <select name="format" id="format" required>
-        <option value="" selected>Format</option>
-      </select>
-      <select name="genre" id="genre" required>
-        <option value="" selected>Genre</option>
-      </select>
-    </form>
-  </div>
-
-  <main>
-    <div class="content">
-      <div class="leftside">
-        <div class="navigation">
+    <main>
+      <div class="content">
+        <div class="content_leftside">
           <nav>
             <ul>
-              <li><a class="selected" href="#"target="_blank">Ask us</a></li>
+              <li><a class="selected" href="#" target="_blank">Ask us</a></li>
               <li><a href="#" target="_blank">Reading Challenge</a></li>
-              <li><a href="#"target="_blank">Catalog</a></li>
+              <li><a href="#" target="_blank">Catalog</a></li>
               <li><a href="#" target="_blank">Bookcamp</a></li>
               <li><a href="#" target="_blank">E-book</a></li>
               <li><a href="#" target="_blank">STEM</a></li>
@@ -63,34 +58,48 @@
             </ul>
           </nav>
         </div>
-      </div>
-
-      <div class="middle">
-        <div class="welcome">
-          <h1>Welcome to Peadmount Library</h1>
-          <p>
-           "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-          </p>
+        <div class="content_middle">
+          <div class="welcome">
+            <h1>
+              Welcome to <br />
+              Peadmount Library
+            </h1>
+            <p>
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum
+              facilis est et expedita distinctio. Nam libero tempore, cum soluta
+              nobis est eligendi optio cumque nihil impedit quo minus id quod
+              maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus. Temporibus autem quibusdam et aut
+              officiis debitis aut rerum necessitatibus saepe eveniet ut et
+              voluptates repudiandae sint et molestiae non recusandae. Itaque
+              earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+              voluptatibus maiores alias consequatur aut perferendis doloribus
+              asperiores repellat."
+            </p>
+          </div>
+          <div class="student">
+            <button class="student-btn">
+              <a href="#">Student Programs</a>
+            </button>
+          </div>
         </div>
-
-        <div class="student">
-          <img src="images/Friends-on-social-media.png" alt="" width="628">
-          <button class="student-btn" ><a href="">Student Programs</a></button>
-        </div> 
-      </div>
-
-      <div class="rightside">
-        <div class="students">
-          <img src="images/desk-with-books.png" alt="" width="629">
-          <button class="students-btn"><a href="">Students</a></button>
+        <div class="content_rightside">
+          <div class="students">
+            <button class="students-btn">
+              <a href="#">Students</a>
+            </button>
+          </div>
+          <div class="children">
+            <button class="kid-btn">
+              <a href="#">Kid Programs</a>
+            </button>
+          </div>
         </div>
-        
-        <div class="children">
-          <img src="./images/group-of-primary-schoolers.png" alt="" width="628">
-          <button class="kid-btn"><a href="">Kid Programs</a></button> 
-        </div>  
       </div>
-    </div> 
-  </main>   
-</body>
+    </main>
+  </body>
 </html>

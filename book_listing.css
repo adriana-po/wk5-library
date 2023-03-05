@@ -5,185 +5,167 @@
 }
 
 body {
-  width: 1728px;
-  height: 1117px;
   background: #ffffff;
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
-.topheader {
-  margin-top: -50px;
-  background: #d9d9d9;
+header {
+  width: 80%;
+  height: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 36px;
+  margin-top: 39px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.56rem;
+  background: #d9d9d9;
+}
+
+.logo {
+  margin-top: -35px;
+  margin-left: 20px;
 }
 
 .logo img {
-  padding: 8px 0 0 37px;
+  max-width: 100%;
 }
 
-.topheader .topheader_links {
-  display: flex;
-}
-
-.topheader .topheader_links nav ul {
-  display: flex;
-  list-style-type: none;
-  margin-left: 1114px;
-  gap: 19px;
-}
-
-.topheader .topheader_links nav ul li {
-  width: 113px;
-  height: 30px;
-  top: 34px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.56rem;
-  line-height: 30px;
-  text-align: left;
-}
-
-.topheader .topheader_links nav ul li a {
+.nav_links a {
   text-decoration: none;
-  text-align: center;
-  color: #000000;
+  color: black;
+  padding: 0 20px;
 }
 
-.topheader .topheader_links nav ul li a:hover {
+.nav_links img {
+  max-width: 100%;
+}
+
+.nav_links a:hover {
   color: white;
 }
 
-.topheader .topheader_links a img {
-  top: 25%;
-  margin-left: 8.33%;
-}
-
-.catalog {
+.sub_header form {
+  width: 80%;
+  height: 100%;
   display: flex;
-  margin-left: 930px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 26px;
+  gap: 20px;
 }
 
-.catalog h1 {
-  margin-top: 50px;
-  font-family: "Inter";
+.sub_header h1 {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
+  line-height: 24px;
+  font-size: 1.45rem;
+  color: black;
+}
+
+.sub_header input {
+  background: #d9d9d9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.sub_header select {
+  background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 0 5px;
+}
+.content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_leftside ul {
+  list-style-type: none;
+  margin-left: 37px;
+  margin-top: 52px;
+}
+
+.content_leftside li {
+  margin-bottom: 13px;
+}
+
+.content_leftside a {
+  text-decoration: none;
+  font-family: "Mate", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.62rem;
+  line-height: 32px;
+  color: black;
+}
+
+.content_leftside a:hover {
+  color: white;
+}
+
+.content_rightside h3 {
+  margin-left: 350px;
+  margin-bottom: 22px;
+  margin-top: 42px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1.25rem;
   line-height: 24px;
   color: #000000;
 }
 
-.catalog form {
-  padding: 50px 0 0 13px;
-  display: flex;
-}
-
-.catalog form input {
-  width: 143px;
-  height: 25px;
-  margin-right: 24px;
-  background: #d9d9d9;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  border: none;
-}
-
-.catalog form select {
-  width: 95px;
-  height: 25px;
-  margin-right: 20px;
-  background: #d9d9d9;
-  border-radius: 5px;
-  border: none;
-}
-
-.catalog .title h1 {
-  width: 283px;
-  height: 36px;
-  margin-left: -616px;
-  margin-top: 18px;
-  text-align: right;
-  font-family: "Inter";
-  font-weight: 700;
-  font-size: 30px;
-  color: #000000;
-}
-
-main .content {
+.book_list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  /* border: 1px solid red; */
-}
-
-.content .content_leftside .navigation nav ul {
-  list-style-type: none;
-  padding: 28px;
-}
-
-.content .content_leftside .navigation nav ul li {
-  padding: 0 0 13px 14px;
-  font-family: "Mate";
-  font-weight: 400;
-  font-size: 1.62rem;
-}
-
-.content .content_leftside .navigation nav ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.content .content_leftside .navigation nav ul li a:hover {
-  color: white;
-}
-
-.content_rightside .book_list {
-  width: 1120px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  grid-auto-flow: row;
+  grid-template-columns: 25% 1fr;
+  grid-gap: 10px;
+  margin-left: 302px;
   align-items: center;
 }
 
-
-
-.content_rightside .book_list .book1{
-  padding: 9px 0 0 256px;
-}
-.content .content_rightside h3{
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-  text-align: right;
-  padding: 14px 0 12px 74px;
+.book1 img {
+  max-width: 100%;
 }
 
-.content .content_rightside .book_list button {
-  width: 119px;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
+.books2 img {
+  max-width: 100%;
+}
+
+.book_list button {
   background: #246d2b;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-}
-
-.content .content_rightside .book_list p {
-  display: flex;
-  padding: 17px;
-  gap: 50px;
-}
-
-.content .content_rightside p {
-  text-align: right;
-  padding: 44px;
+  padding: 0 18px;
+  margin-right: 6px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.45rem;
+  line-height: 30px;
+  color: #ffffff;
 }
+
+footer p {
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.65rem;
+  line-height: 30px;
+  margin-top: 45px;
+}
+
