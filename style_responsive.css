@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+}
+
+html {
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  height: 36px;
+  margin-top: 39px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.56rem;
+  background: #d9d9d9;
+}
+
+.logo {
+  margin-top: -35px;
+  margin-left: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+
+.nav_links img {
+  max-width: 100%;
+}
+
+.nav_links a:hover {
+  color: white;
+}
+
+.sub_header form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+  margin: 50px 60px;
+  gap: 20px;
+}
+
+.sub_header h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 1.45rem;
+  color: black;
+}
+
+.sub_header input {
+  background: #d9d9d9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.sub_header select {
+  background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_leftside ul {
+  list-style-type: none;
+  margin-left: 37px;
+}
+
+.content_leftside li {
+  margin-bottom: 13px;
+}
+
+.content_leftside a {
+  text-decoration: none;
+  font-family: "Mate", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.62rem;
+  line-height: 32px;
+  color: black;
+}
+
+.content_leftside a:hover {
+  color: white;
+}
+
+.welcome h1 {
+  font-family: "Mate", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  margin-top: 98px;;
+  margin-bottom: 23px;
+  margin-left:167px;
+}
+
+.welcome p {
+  max-width: 652px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 52px;
+  margin-left:167px;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+}
+
+button a {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+.student {
+  background-image: url(./images/Friends-on-social-media.png);
+  max-width: 628px;
+  height: 418px;
+  border-radius: 66px;
+  margin-left:167px;
+}
+
+.student-btn {
+  background-color: #742c2c;
+  padding: 20px 80px;
+  border-radius: 16px;
+  margin-top: 250px;
+  margin-left: 60px;
+}
+
+.students {
+  background-image: url(./images/desk-with-books.png);
+  max-width: 628px;
+  height: 418px;
+  /* max-width: 629px;
+  height: 419px; */
+  border-radius: 57px;
+  margin-top:56px;
+  margin-bottom:29px;
+  margin-left:167px;
+}
+
+.students-btn {
+  background-color: #742c2c;
+  padding: 20px 160px;
+  border-radius: 16px;
+  margin-top: 230px;
+  margin-left: 60px;
+}
+
+.children {
+  background-image: url(./images/group-of-primary-schoolers.png);
+  max-width: 628px;
+  height: 418px;
+  border-radius: 52px;
+  margin-left:167px;
+}
+
+.kid-btn {
+  background-color: #742c2c;
+  padding: 20px 120px;
+  border-radius: 16px;
+  margin-top: 250px;
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+    .header {
+      margin-bottom: 120px;
+      margin-left: 37px;
+    }
+    .sub_header form {
+      margin-top: 120px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap:5px;
+    }
+    .welcome p{
+        margin-left:37px;
+    }
+
+    .welcome h1{
+        margin-left:37px;
+    }
+
+    .student{
+        margin-left:37px;
+    }
+    .students{
+        margin-left:37px;
+    }
+    .children{
+        margin-left:37px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   
+    .header {
+      margin-bottom: 160px;
+    }
+    .nav_links a {
+      font-size: 1.25rem;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .sub_header form {
+      margin-top: 160px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap:5px;
+    }
+
+    .welcome p{
+        margin-left:37px;
+    }
+
+    .welcome h1{
+        margin-left:37px;
+    }
+
+    .student{
+        margin-left:37px;
+    }
+    .students{
+        margin-left:37px;
+    }
+    .children{
+        margin-left:37px;
+    }
+  }

@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffff;
+  }
+  
+  html {
+    font-size: 1rem;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1 1 auto; */
+    justify-content: space-between;
+    height: 36px;
+    margin-top: 39px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.56rem;
+    background: #d9d9d9;
+  }
+  
+  .logo {
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+  }
+  
+  .nav_links img {
+    max-width: 100%;
+  }
+  
+  .nav_links a:hover {
+    color: white;
+  }
+  
+  .sub_header form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* flex: 1 1 auto; */
+    margin: 50px 60px;
+    gap: 20px;
+  }
+  
+  .sub_header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 1.45rem;
+    color: black;
+  }
+  
+  .sub_header input {
+    background: #d9d9d9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
+  .sub_header select {
+    background: #d9d9d9;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
+  
+  .content {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+  }
+  
+  .content_leftside ul {
+    list-style-type: none;
+    margin-left: 37px;
+  }
+  
+  .content_leftside li {
+    margin-bottom: 13px;
+  }
+  
+  .content_leftside a {
+    text-decoration: none;
+    font-family: "Mate", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.62rem;
+    line-height: 32px;
+    color: black;
+  }
+  
+  .content_leftside a:hover {
+    color: white;
+  }
+  
+  
+  .profile_container h1 {
+    padding: 40px 0;
+  }
+  
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+  .profile_img img{
+    max-width: 100%;
+  }
+  
+  .profile a {
+    color: #2477d9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .info_item {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    justify-content: space-around;
+  }
+  
+  .info_item p {
+    padding: 0 0 10px 25px;
+  }
+  
+  .recent_returns h1 {
+    padding: 65px 0 25px 0;
+  }
+  
+  .recent_returns img {
+    max-width: 100%;
+  }
+  
+  .rectangles p{
+    padding:0 45px;
+  }
+  
+  .rightside h1 {
+    padding: 70px 50px;
+  }
+  
+  .rectangles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 0;
+    padding:0 50px;
+  } 
+  
+  .rectangles img {
+    max-width: 100%;
+  }
+  
+  .rectangles button {
+    background: #246d2b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    padding: 1px 20px;
+    /* margin-left: 45px; */
+    /* max-width: 100%; */
+    font-family: "Microsoft JhengHei UI";
+    font-size: 0.625rem;
+    text-align: center;
+    color: #ffff;
+  }
+  
+  @media (max-width: 1200px) {
+    .content {
+      display: grid;
+      grid-template-columns: 20% 1fr;
+    }
+    .rectangles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px 50px;
+      align-items: center;
+      /* padding:0 100px; */
+    } 
+    .rectangles button {
+      padding: 2px 40px;
+      font-size: 0.6rem;
+      text-align: center;
+    }
+    .rightside{
+      margin-left:180px;
+    }
+   
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      margin-bottom: 120px;
+      margin-left: 37px;
+      background: #ffffff;
+    }
+    .sub_header form {
+      margin-top: 120px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap:5px;
+    }
+    .content {
+      display: grid;
+      grid-template-columns:1fr;
+    }
+  
+    .content_middle{
+      margin-top:100px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+   
+    .header {
+      margin-bottom: 160px;
+    }
+    .nav_links a {
+      font-size: 1.25rem;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .sub_header form {
+      margin-top: 160px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap:5px;
+    }
+  }
+  
+  

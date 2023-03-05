@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./book_listing_responsive.css" />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&family=Inter&family=Mate&display=swap"
+      rel="stylesheet"
+    />
+    <title>Peadmount Library</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" width="110" />
+      </div>
+
+      <div class="nav_links">
+        <a href="#">Location</a>
+        <a href="#">Events</a>
+        <a href="./about_us_responsive.html">About Us</a>
+        <a href="./registration_responsive.html">Sign-in</a>
+        <a href="#"><img src="./images/search.png" alt="" width="36" /></a>
+      </div>
+    </header>
+
+    <div class="sub_header">
+      <form>
+        <h1>Search Catalog</h1>
+        <input type="text" name="title" placeholder="Title" required />
+        <input type="text" name="ISBN" id="isbn" placeholder="ISBN" required />
+        <select name="format" id="format" required>
+          <option value="format" selected>Format</option>
+        </select>
+        <select name="genre" id="genre" required>
+          <option value="" selected>Genre</option>
+        </select>
+      </form>
+    </div>
+
+    <main>
+      <div class="content">
+        <div class="content_leftside">
+          <nav>
+            <ul>
+              <li><a class="selected" href="#" target="_blank">Ask us</a></li>
+              <li><a href="#" target="_blank">Reading Challenge</a></li>
+              <li><a href="#" target="_blank">Catalog</a></li>
+              <li><a href="#" target="_blank">Bookcamp</a></li>
+              <li><a href="#" target="_blank">E-book</a></li>
+              <li><a href="#" target="_blank">STEM</a></li>
+              <li><a href="#" target="_blank">Online Resources</a></li>
+              <li><a href="#" target="_blank">Volunteer</a></li>
+              <li><a href="#" target="_blank">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="content_rightside">
+          <div class="title">
+            <h3>
+              There are 6 readers in line for this tile, check out these similar
+              titles that are currently available.
+            </h3>
+          </div>
+
+          <div class="book_list">
+            <div class="book1">
+              <img src="./images/rectangle9.png" alt="" width="165" />
+              <p><button>Check Out</button></p>
+            </div>
+            <div class="books2">
+              <img src="./images/rectangle5.png" alt="" width="659" />
+              <p>
+                <button>Check Out</button>
+                <button>Check Out</button>
+                <button>Check Out</button>
+                <button>Check Out</button>
+              </p>
+              <img src="./images/rectangle11.png" alt="" width="659" />
+              <p>
+                <button>Check Out</button>
+                <button>Check Out</button>
+                <button>Check Out</button>
+                <button>Check Out</button>
+              </p>
+            </div>
+          </div>
+          <footer>
+            <p>
+              <b><u>1</u></b> 2 3 4 5 6 7
+            </p>
+          </footer>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
