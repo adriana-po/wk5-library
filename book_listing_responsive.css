@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffff;
+  }
+  
+  html {
+    font-size: 1rem;
+  }
+  
+  header {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 36px;
+    margin-top: 39px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.56rem;
+    background: #d9d9d9;
+  }
+  
+  .logo {
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+  }
+  
+  .nav_links img {
+    max-width: 100%;
+  }
+  
+  .nav_links a:hover {
+    color: white;
+  }
+  
+  .sub_header form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 26px;
+    gap: 20px;
+  }
+  
+  .sub_header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 1.45rem;
+    color: black;
+  }
+  
+  .sub_header input {
+    background: #d9d9d9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
+  .sub_header select {
+    background: #d9d9d9;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  .content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .content_leftside ul {
+    list-style-type: none;
+    margin-left: 37px;
+    margin-top: 52px;
+  }
+  
+  .content_leftside li {
+    margin-bottom: 13px;
+  }
+  
+  .content_leftside a {
+    text-decoration: none;
+    font-family: "Mate", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.62rem;
+    line-height: 32px;
+    color: black;
+  }
+  
+  .content_leftside a:hover {
+    color: white;
+  }
+  
+  .content_rightside h3 {
+    margin-left: 350px;
+    margin-bottom: 22px;
+    margin-top: 42px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .book_list {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-gap: 10px;
+    margin-left: 302px;
+    align-items: center;
+  }
+  
+  .book1 img {
+    max-width: 100%;
+  }
+  
+  .books2 img {
+    max-width: 100%;
+  }
+  
+  .book_list button {
+    background: #246d2b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 0 18px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  
+  footer p {
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.65rem;
+    line-height: 30px;
+    margin-top: 45px;
+  }
+  
+  @media (max-width: 1400px) {
+  
+    .content_rightside h3{
+      margin-left: 37px;
+    }
+    .book_list {
+      display:grid;
+      grid-template-columns: 1fr;
+      margin-left:37px;
+    }
+  
+    .book_list button {
+      font-size: 1rem;
+    }
+  
+    .books2 button{
+      display:none;
+    }
+    footer p {
+      text-align: left;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      margin-bottom: 130px;
+      margin-left: 0;
+    }
+    .sub_header {
+      margin-left: 0;
+    }
+    .sub_header form {
+      margin-top: 130px;
+      justify-content: flex-start;
+      gap: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      margin-bottom: 160px;
+    }
+    .nav_links a {
+      font-size: 1.25rem;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .sub_header form {
+      margin-top: 160px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap: 5px;
+    }
+  }
+  

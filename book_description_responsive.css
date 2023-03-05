@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffff;
+  }
+  
+  html {
+    font-size: 1rem;
+  }
+  
+  header {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 36px;
+    margin-top: 39px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.56rem;
+    background: #d9d9d9;
+  }
+  
+  .logo {
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+  }
+  
+  .nav_links img {
+    max-width: 100%;
+  }
+  
+  .nav_links a:hover {
+    color: white;
+  }
+  
+  .sub_header form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 26px;
+    gap: 20px;
+  }
+  
+  .sub_header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 1.45rem;
+    color: black;
+  }
+  
+  .sub_header input {
+    background: #d9d9d9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
+  .sub_header select {
+    background: #d9d9d9;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
+  .content {
+    /* max-width: 1728px;
+    height: 959px; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .leftside {
+    flex: 1 1 16%;
+  }
+  
+  .middle {
+    flex: 1 1 36%;
+    /*border: 1px solid red;*/
+  }
+  
+  .rightside {
+    flex: 1 1 48%;
+    /*border: 1px solid red;*/
+  }
+  
+  .navigation nav ul {
+    list-style-type: none;
+    margin-top: 28px;
+    margin-left: 44px;
+  }
+  
+  .navigation nav ul li {
+    /* width: 209px;
+    height: 32px; */
+    margin-bottom: 13px;
+    font-family: "Mate", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.62rem;
+    line-height: 32px;
+  }
+  
+  .navigation nav ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .navigation nav ul li a:hover {
+    color: white;
+  }
+  
+  .book img {
+    /* width: 389px;
+    height: 586px; */
+    max-width: 100%;
+    margin-left: 124px;
+    margin-top: 70px;
+  }
+  
+  .rating {
+    display: flex;
+  }
+  
+  .rating h1 {
+    width: 60px;
+    height: 27px;
+    margin-left: 222px;
+    margin-top: 11px;
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: #000000;
+  }
+  
+  .rating img {
+    /* height: 19px; */
+    max-width: 100%;
+    margin-left: 8px;
+    margin-top: 11px;
+  }
+  
+  .middle button {
+    width: 198px;
+    height: 49px;
+    margin-left: 219px;
+    margin-top: 34px;
+    background: #067c44;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.87rem;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  
+  .top {
+    display: flex;
+    margin-top: 52px;
+  }
+  
+  .top h1 {
+    font-family: "Mandali", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.56rem;
+    line-height: 49px;
+    color: #000000;
+  }
+  
+  .left h1 {
+    max-width: 110px;
+  }
+  
+  .right h1 {
+    max-width: 310px;
+    margin-left: 53px;
+  }
+  
+  .summary h1 {
+    height: 35px;
+    margin-top: 31px;
+    font-family: "Tienne", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.62rem;
+    line-height: 35px;
+    color: #000000;
+  }
+  
+  .summary p {
+    width: 666px;
+    height: 215px;
+    margin-top: 26px;
+    font-family: "Merge One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.62rem;
+    line-height: 31px;
+    color: #000000;
+  }
+  
+  .reviews h1 {
+    width: 114px;
+    height: 35px;
+    margin-top: 30px;
+    font-family: "Tienne", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.62rem;
+    line-height: 35px;
+    color: #000000;
+  }
+  
+  .reviews p {
+    width: 666px;
+    height: 100px;
+    margin-top: 16px;
+    margin-bottom: 27px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.62rem;
+    line-height: 33px;
+    color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      margin-bottom: 130px;
+      margin-left: 0;
+    }
+    .sub_header {
+      margin-left: 0;
+    }
+    .sub_header form {
+      margin-top: 130px;
+      justify-content: flex-start;
+      gap: 5px;
+    }
+    .rightside{
+      margin-left: 37px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      margin-bottom: 160px;
+    }
+    .nav_links a {
+      font-size: 1.25rem;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .sub_header form {
+      margin-top: 160px;
+      margin-left: 37px;
+      justify-content: flex-start;
+      gap: 5px;
+    }
+  }
+  
